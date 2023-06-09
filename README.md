@@ -1,4 +1,4 @@
-# Image_Stitching_201105026
+# Image Stitching project using OpenCV
 
 Image stitching is one of the most successful applications in Computer Vision. Nowadays, it is hard to find a cell phone or an image processing API that does not contain this functionality, In this piece, I will talk about how to perform image stitching using Python and OpenCV. Given a pair of images that share some common region, my goal is to “stitch” them and create a panoramic image scene.
 Methods like SIFT and SURF try to address the limitations of corner detection algorithms. Usually, corner detector algorithms use a fixed size kernel to detect regions of interest (corners) on images. It is easy to see that when we scale an image, this kernel might become too small or too big. To address this limitation, methods like SIFT use the Difference of Gaussians (DoD). The idea is to apply DoD on differently scaled versions of the same image. It also uses the neighboring pixel information to find and refine key points and corresponding descriptors.
